@@ -15,7 +15,7 @@ module.exports = {
       }
     }, function (res) {
       
-      throw new Error(res.data.message);
+      throw new Error('Unale to fetch weather for that location. Please provide a valid Location.');
     });
   }
 }
